@@ -16,8 +16,7 @@ class SettingsView extends StatefulWidget {
 class _SettingsViewState extends State<SettingsView> {
   @override
   Widget build(BuildContext context) {
-    var theme = Theme.of(context);
-    var mediaQuery = MediaQuery.of(context).size;
+
 
     var appProvider = Provider.of<AppProvider>(context);
     return Padding(
